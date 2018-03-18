@@ -4,10 +4,6 @@ import java.util.GregorianCalendar;
 
 public class CalendarTest {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-
-
-
             Calendar cal = new GregorianCalendar();
             cal.set(Calendar.YEAR, 2011);
             cal.set(Calendar.MONTH, Calendar.APRIL);
